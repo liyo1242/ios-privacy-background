@@ -1,0 +1,26 @@
+{
+  "name": "PrivacyScreen",
+  "version": "0.0.1",
+  "description": "ios privacy screen for hide something",
+  "cordova": {
+    "id": "cordova-plugin-privacy-screen",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "knst-cordova",
+    "ecosystem: cordova",
+    "cordova-ios"
+  ],
+  "devDependencies": {
+    "husky": "^0.13.4",
+    "lint-staged": "^3.6.0",
+    "prettier": "^1.4.2"
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "author": "knst",
+  "license": "MIT"
+}
